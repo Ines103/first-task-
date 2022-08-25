@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: rgb(40, 44, 52);
+  margin-bottom: 0px;
+  margin-top: calc(40px + var(--survey-banner-height-normal) + var(--social-banner-height-normal));
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 700;
+}
