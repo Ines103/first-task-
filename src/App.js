@@ -8,6 +8,7 @@ import UpdateProduct from './pages/UpdateProduct';
 import Weather from './pages/Weather';
 import ErrorPage from './pages/ErrorPage';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+// import Hero from './components/Hero'
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
     
     <Router>
       <Header />
+      {/* <Hero /> */}
 
       <Routes>
 

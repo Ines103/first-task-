@@ -29,9 +29,7 @@ function Header() {
                             <Link className="nav-link active" to="/products">Products</Link>
                         </li>
 
-                        <li className="nav-item">
-                            <Link className="nav-link active" to="/products/create" >Add Product</Link>
-                        </li>
+            
                         <li className="nav-item">
                             <NavLink className="nav-link active" to="/weather" >Weather</NavLink>
                         </li>
